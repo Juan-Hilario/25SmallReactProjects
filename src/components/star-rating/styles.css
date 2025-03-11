@@ -1,0 +1,15 @@
+.star-rating svg {
+	transition: color ease 200ms;
+}
+
+.active {
+	color: #fff700;
+}
+
+.inactive {
+	color: #ffffff;
+}
+
+.hover {
+	color: rgb(100, 96.9, 0);
+}

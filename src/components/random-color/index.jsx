@@ -14,7 +14,6 @@ export default function RandomColor() {
       for (let i = 0; i < 6; i++) {
         hexColor += hex[randomColorUtil(hex.length)];
       }
-      console.log(hexColor);
       setColor(hexColor);
     } else if (typeOfColor === "rgb") {
       const red = randomColorUtil(256);
@@ -47,9 +46,9 @@ export default function RandomColor() {
           justifyContent: "center",
           alignItems: "center",
           color: "white",
-          fontsize: "60px",
+          //fontsize: "80px",
           marginTop: "40px",
-          flexDirection: 'column'
+          flexDirection: "column",
         }}
       >
         <h3>{typeOfColor === "rgb" ? "RGB Color" : "HEX Color"}</h3>
